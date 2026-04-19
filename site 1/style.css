@@ -1,0 +1,9 @@
+#rpc {
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+}
+.option {
+    height:150px;
+    width:150px;
+}
