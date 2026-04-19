@@ -1,0 +1,8 @@
+require 'pry-byebug'
+require './libs/bubblesort'
+require './libs/stocks'
+require './libs/substrings'
+require './libs/tictactoe'
+require './libs/mastermind'
+require './libs/hangman'
+# require './libs/brokenceasar.rb'
