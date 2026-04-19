@@ -1,0 +1,85 @@
+/* * {
+    border: 2px solid black;
+}*/
+@font-face {
+    font-family: roboto;
+    src: url(Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+    /*border: 2px solid black;*/
+}
+.toppart {
+    background-color:rgb(0, 0, 160);
+    color:white;
+}
+.top {
+    height: 100px;
+    display: flex;
+}
+.top1 {
+    flex: 1.5 1 auto;
+    display: flex;
+    justify-content: center;
+}
+.infoheaders {
+    color:rgb(140, 140, 140);
+    font-weight: lighter;
+}
+.top2 {
+    flex: 1 1 auto;
+    display: flex;
+    gap: 25px;
+    font-weight: bolder;
+    justify-content: center;
+}
+#roundbutton {
+    height:fit-content;
+    width:fit-content;
+    background-color:aqua;
+    border:2px aqua;
+    border-radius: 4px;
+    color:black;
+}
+.maininfo {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#placeholderimage{
+    height: 250px;
+    width:auto;
+}
+#boxes {
+    display:flex;
+    justify-content: center;
+    gap: 75px;
+}
+.secondpart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:20px;
+}
+.boximage {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.thirdpart {
+    height: 300px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+.copyright {
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 100);
+}
